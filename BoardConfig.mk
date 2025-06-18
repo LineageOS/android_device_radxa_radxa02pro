@@ -22,6 +22,9 @@ TARGET_DTB_NAME := g12b_a311d_radxa02pro
 TARGET_KERNEL_EXT_MODULES := \
     dhd-driver/bcmdhd.101.10.361.x
 
+## Kernel config
+TARGET_KERNEL_VARIANT_CONFIG ?= sm1_variant_defconfig
+
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 2084569088
 
@@ -38,4 +41,4 @@ WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/dhd/parameters/firmware_path"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 ## Include the common tree BoardConfig makefile
-include device/amlogic/sm1-common/BoardConfigCommon.mk
+include device/amlogic/g12-common/BoardConfigCommon.mk
