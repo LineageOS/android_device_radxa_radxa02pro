@@ -22,9 +22,6 @@ TARGET_DTB_NAME := g12b_a311d_radxa02pro
 TARGET_KERNEL_EXT_MODULES := \
     dhd-driver/bcmdhd.101.10.361.x
 
-## Kernel config
-TARGET_KERNEL_VARIANT_CONFIG ?= sm1_variant_defconfig
-
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 2084569088
 
