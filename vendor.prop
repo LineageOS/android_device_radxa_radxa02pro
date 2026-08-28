@@ -4,7 +4,7 @@ bluetooth.profile.hfp.ag.enabled=false
 bluetooth.profile.opp.enabled=false
 bluetooth.profile.pbap.server.enabled=false
 
-# Dolby
+## Dolby
 ro.vendor.platform.support.dolbyvision=false
 vendor.media.support.dolbyvision=false
 
