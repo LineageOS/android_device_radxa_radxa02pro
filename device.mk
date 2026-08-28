@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init-files/init.amlogic.wifi_buildin.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.amlogic.wifi_buildin.rc
 
 ## Platform
-TARGET_AMLOGIC_SOC := sm1
+TARGET_AMLOGIC_SOC := g12b
 
 ## TEE
 TARGET_HAS_TEE := false
