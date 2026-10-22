@@ -17,7 +17,6 @@ module = ExtractUtilsModule(
     'radxa02pro',
     'radxa',
     add_firmware_proprietary_file=True,
-    namespace_imports=namespace_imports,
 )
 
 if __name__ == '__main__':
